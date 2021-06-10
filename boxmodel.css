@@ -1,0 +1,21 @@
+/* To remove the browser default styling */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    background-color: lightblue;
+    color: brown;
+    /* inside we add padding  */
+    /* top and botton 30px, left and right 500px */
+    padding: 30px 500px; 
+    
+}
+
+.grantparent {
+    border: 3px solid brown;
+    /* outside we add margin */
+    margin :60px;
+    
+}
